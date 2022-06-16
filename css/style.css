@@ -1618,6 +1618,10 @@ slideShowText {  0% {
 	font-family:'Segoe-UI-Bold';
 	text-transform:uppercase;
 }
+.list-info-title-md{
+	font-size:17px;
+	font-family: 'Segoe-UI';
+}
 .list-info li:not(:last-child){
 	margin-bottom:70px;
 } 
@@ -1653,7 +1657,8 @@ slideShowText {  0% {
 	margin-top:-10px;
 }
 .negative-center{
-	/*margin-left:-160px;*/
+	/*margin-left:-160px;*
+	/
 	display:inline-block;
 	margin-left:106px;
 }
@@ -5813,37 +5818,69 @@ slideShowText {  0% {
 		padding-bottom:25px;
 	}
 	.info-circle{
-		order:1;
+		/* order:1; */
+		min-width:550px;
 	}
 	.list-info-left{
-		order:2;
+		/* order:2; */
 		padding-right:0;
 		display: flex;
-		flex-wrap: wrap;
+		flex-direction:column;
+
+		/* flex-wrap: wrap; */
 		margin-bottom:0;
+		min-width:283px;
 	}
 	.list-info-end{
-		order:3;
-		padding-left:0;
+		/* order:3; */
+		/* padding-left:0; */
 		display:flex;
-		flex-wrap:wrap;
-		margin-top:0;
-		margin-bottom:0;
+		display: flex;
+		flex-direction:column;
+		/* flex-wrap:wrap; */
+		/* margin-top:0;
+		margin-bottom:0; */
+		min-width:253px;
+	}
+	.mobile-scroll{
+		overflow-x: auto;
 	}
 	.list-info li:not(:last-child){
 		margin-bottom:20px;
 	}
+	.list-info-title{
+		white-space:nowrap;
+	}
 	.list-info-title, .list-info-text{
 		font-size:14px;
 	}
+	.list-info-title-md{
+		font-size:14px;
+	}
+	.list-info-left2{
+		margin-top: 49px;
+	}
+	.list-info-left3{
+		margin-top:16px;
+	}
+	.list-info-left4{
+		margin-top:10px;
+	}
 	.list-info li{
-/*		flex:0 50%;
-		max-width:50%;*/
-		flex:0 100%;
+		/* flex:0 100%; */
 		max-width:100%;
 	}
-	.list-info-left3, .list-info-left4{
+	/* .list-info-left3, .list-info-left4{
 		margin-top:0;
+	} */
+	.list-info-end2 {
+		margin-top:41px;
+	}
+	.list-info-end3{
+		margin-top:32px;
+	}
+	.list-info-end4{
+		margin-top: 21px;
 	}
 	.negative-center{
 		margin-left:0;
@@ -5861,8 +5898,8 @@ slideShowText {  0% {
 		max-width:120px;
 	}
 	.info-content{
-		top:50%;
-		transform:translateY(-50%);
+		top:40%;
+		transform:translateY(-40%);
 	}
 	.team-content{
 		margin-left:0;
