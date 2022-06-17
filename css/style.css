@@ -6053,10 +6053,12 @@ slideShowText {  0% {
 	}
 	.list-info-left_2{
 		top:-50px;
+		z-index:1;
 	}
 	.list-info-left_3{
 		top: -38px;
 		left: 21px !important;
+		z-index:1;
 	}
 	.list-info-left_ul .list-info-left_4{
 		left: 200px !important;
