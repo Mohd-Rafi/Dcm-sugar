@@ -5225,7 +5225,7 @@ slideShowText {  0% {
 		margin-top:20px;
 	}
 	.meetha-title{
-		font-size:20px;
+		/* font-size:20px; */
 	}
 	.logo{
 		max-width:90px;
@@ -5894,8 +5894,10 @@ slideShowText {  0% {
 	.list-info-end4{
 		margin-top:30px;
 	}
-	.negative-center{
-		margin-left:0;
+	.negative-center {
+		margin-left: 0;
+		top: 80px;
+		left: 300px;
 	}
 	.mx-width{
 		max-width:270px;
@@ -6023,20 +6025,58 @@ slideShowText {  0% {
 		margin-bottom:20px;
 	}
 	.info-title1{
-		font-size:12px !important;
+		font-size:18px !important;
 	}
 	.info-content1{
-		top:45%;
-		transform:translateY(-45%);
-		left:12%;
+		left:23px;
+		max-width:100%;
+	}
+	.list-info-1.list-info-left_ul{
+		margin-top:92px;
+		text-align:left;
+		min-width:inherit;
+	}
+	.info-circle_1{
+		min-width:fit-content;
+		justify-content:flex-start;
+		margin-top:85px;
+		left: -47px;
+		position: relative;
 	}
 	.list-info-1{
 		margin-top:0;
 		display:initial;
 	}
-	.list-info-left_1,
-	.list-info-left_2, 
-	.list-info-left_3,
+	.list-info-left_1{
+		left:37px;
+		top:-59px;
+	}
+	.list-info-left_2{
+		top:-50px;
+	}
+	.list-info-left_3{
+		top: -38px;
+		left: 21px !important;
+	}
+	.list-info-left_ul .list-info-left_4{
+		left: 200px !important;
+    	top: -65px !important;
+	}
+	.list-info-left_ul .list-info-end_1{
+		left: auto !important;
+		right:100px;
+		top: -26px !important;
+	}
+	.list-info-left_ul .list-info-end_4{
+		right: 155px;
+		left: auto !important;
+		top: 23px;
+	}
+	.list-info-left_ul .list-info-end_2, 
+	.list-info-left_ul .list-info-end_3{
+		left: -30px !important;
+	}
+
 	.list-info-left_4,
 	.list-info-end_1,
 	.list-info-end_2,
@@ -6046,15 +6086,15 @@ slideShowText {  0% {
 		left:0 !important;
 /*		flex: 0 50%;
 		max-width: 50%;*/
-		display:flex;
-		align-items:center;
+		/* display:flex;
+		align-items:center; */
 	}
 	.list-info-1 li:not(:last-child){
-		margin-bottom:20px;
+		/* margin-bottom:20px; */
 	}
 	.list-info-left_1,
 	.list-info-left_4{
-		margin-bottom:20px !important;
+		margin-bottom:40px !important;
 	}
 	.list-info-end_2 img{
 		/* margin-left:-13px; */
@@ -6069,6 +6109,7 @@ slideShowText {  0% {
 	.list-info-text1{
 		font-size:20px;
 		line-height:1.1;
+		white-space:nowrap;
 		/*font-family:'Segoe-UI-Bold';*/
 	}
 	.negative-center_1{
