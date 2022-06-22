@@ -1637,31 +1637,31 @@ slideShowText {  0% {
 	width:100%;
 }
 .list-info{
-	margin-top:15px;
+	margin-top:4px;
 }
 .list-info-left{
 	padding-right:20px;
 }
 .list-info-left2{
-	margin-top:107px;
+	margin-top:88px;
 }
 .list-info-left3{
-	margin-top:26px;
+	margin-top:65px;
 }
 .list-info-left4{
-	margin-top:53px;
+	margin-top:64px;
 }
 .list-info-end{
 	padding-left:20px;
 }
 .list-info-end2{
-	margin-top:79px;
+	margin-top:68px;
 }
 .list-info-end3{
-	margin-top:67px;
+	margin-top:80px;
 }
 .list-info-end4{
-	margin-top:69px;
+	margin-top:94px;
 }
 .negative-center{
 	/*margin-left:-160px;*/
@@ -3392,25 +3392,25 @@ slideShowText {  0% {
 		font-size:14px;
 	}
 	.list-info{
-		margin-top:14px;
+		margin-top:0;
 	}
 	.list-info-left2{
-		margin-top:78px;
+		margin-top:65px;
 	}
 	.list-info-left3{
-		margin-top:16px;
+		margin-top:43px;
 	}
 	.list-info-left4{
-		margin-top: 35px;
+		margin-top:50px;
 	}
 	.list-info-end2{
-		margin-top:53px;
+		margin-top:54px;
 	}
 	.list-info-end3{
-		margin-top:50px;
+		margin-top:56px;
 	}
 	.list-info-end4{
-		margin-top:50px;
+		margin-top:72px;
 	}
 	.info-title{
 		font-size:44px;
@@ -5869,13 +5869,13 @@ slideShowText {  0% {
 		font-size:14px;
 	}
 	.list-info-left2{
-		margin-top:66px;
+		margin-top:51px;
 	}
 	.list-info-left3{
-		margin-top:0px;
+		margin-top:31px;
 	}
 	.list-info-left4{
-		margin-top:18px;
+		margin-top:31px;
 	}
 	.list-info li{
 		/* flex:0 100%; */
@@ -5885,13 +5885,15 @@ slideShowText {  0% {
 		margin-top:0;
 	} */
 	.list-info-end2 {
-		margin-top:41px;
+		margin-top:40px;
 	}
 	.list-info-end3{
-		margin-top:32px;
+		margin-top:41px;
 	}
 	.list-info-end4{
-		margin-top:30px;
+		margin-top:33px;
+		position: relative;
+		top:17px;
 	}
 	.negative-center {
 		margin-left: 0;
