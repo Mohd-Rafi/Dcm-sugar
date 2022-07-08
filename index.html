@@ -32,16 +32,25 @@
 							</a>
 						</li>
 						<li class="list-inline-item list-inline-item-search">
-							<a href="">
+							<a href="javascript:void(0)">
 								<i class="search-icon"></i>
 								<span class="d-none d-lg-block">Search</span>
 							</a>
+							<div class="search-box-text SlideUpIn">
+								<form class="search-form">
+									<label>
+										<span class="screen-reader-text">Search for:</span>
+										<input type="search" class="search-field" placeholder="Search …" value="" name="s">
+									</label>
+									<input type="submit" class="search-submit" value="Search">
+								</form>							
+							</div>     
 						</li>
 						<li class="list-inline-item position-relative d-block d-lg-none">
 							<button class="navbar-toggler" id="test1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 								<span class="navbar-toggler-icon">
 								</span>
-							</button>     
+							</button>
 						</li>
 					</ul>     
 				</div>
@@ -1027,6 +1036,11 @@
 				 $('.navbar-toggler').click(function(){
 				 	$(this).toggleClass("active");
 				 	$('body').toggleClass("body-scroll");
+				 });
+
+				 $('.list-inline-item-search > a').click(function(e){
+					e.preventDefault();
+					$(this).next('.search-box-text').toggleClass('search_box');
 				 });
 
 
